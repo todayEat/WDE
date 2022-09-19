@@ -45,6 +45,9 @@
 		4608434128D8394E00D60E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4608434328D8394F00D60E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4608434628D8394F00D60E39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4608435228D839B100D60E39 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Presentation; sourceTree = "<group>"; };
+		4608435428D839E600D60E39 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		4608435528D83B1D00D60E39 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		4608432D28D8394E00D60E39 = {
 			isa = PBXGroup;
 			children = (
+				4608435128D839B100D60E39 /* Packages */,
 				4608433E28D8394E00D60E39 /* WDE Watch App */,
 				4608433528D8394E00D60E39 /* Products */,
 			);
@@ -92,6 +96,16 @@
 				4608434628D8394F00D60E39 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4608435128D839B100D60E39 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4608435228D839B100D60E39 /* Presentation */,
+				4608435428D839E600D60E39 /* Domain */,
+				4608435528D83B1D00D60E39 /* Data */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

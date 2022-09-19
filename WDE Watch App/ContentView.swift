@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  WDE Watch App
-//
-//  Created by 최형우 on 2022/09/19.
-//
-
 import SwiftUI
 
 struct ContentView: View {
